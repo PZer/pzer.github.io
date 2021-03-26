@@ -117,8 +117,8 @@
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
           // 需要修改https://raw.githubusercontent.com/你的github名/你的github仓库名/master/min_photos/即可
-          var minSrc = 'https://gitee.com/Pckk/Gallery/raw/master/min_photos/' + data.link[i];
-          var src = 'https://gitee.com/Pckk/Gallery/raw/master/photos/' + data.link[i];
+          var minSrc = 'https://raw.githubusercontent.com/PZer/Gallery/master/min_photos/' + data.link[i];
+          var src = 'https://raw.githubusercontent.com/PZer/Gallery/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
